@@ -1,0 +1,127 @@
+=====FILE CREATED 2025-10-16 10:00:09.654906=====
+(2025-10-16 10:00:09.654906) [16864] |LOG| -> Creating ORM Engine
+(2025-10-16 10:00:09.670547) [16864] |FATAL| -> Cannot create engine. Full exception --> No module named 'MySQLdb'
+(2025-10-16 10:01:43.609442) [6164 ] |LOG| -> Creating ORM Engine
+(2025-10-16 10:01:43.658263) [6164 ] |LOG| -> Successfully created engine!
+(2025-10-16 15:50:09.842899) [17052] |LOG| -> Creating ORM Engine
+(2025-10-16 15:50:09.869766) [17052] |LOG| -> Successfully created engine!
+(2025-10-16 15:50:31.683448) [21788] |LOG| -> Creating ORM Engine
+(2025-10-16 15:50:31.702493) [21788] |LOG| -> Successfully created engine!
+(2025-10-16 15:50:31.708495) [21788] |LOG| -> Creating new user
+(2025-10-16 15:51:24.447824) [14252] |LOG| -> Creating ORM Engine
+(2025-10-16 15:51:24.467015) [14252] |LOG| -> Successfully created engine!
+(2025-10-16 15:51:24.473000) [14252] |LOG| -> Creating new user
+(2025-10-16 15:51:24.473000) [14252] |LOG| -> User was created successfully
+(2025-10-16 15:52:27.849689) [8000 ] |LOG| -> Creating ORM Engine
+(2025-10-16 15:52:27.870554) [8000 ] |LOG| -> Successfully created engine!
+(2025-10-16 15:52:27.877566) [8000 ] |LOG| -> Creating new user
+(2025-10-16 15:52:29.918091) [8000 ] |ERROR| -> Failed! Full exception -> (mariadb.OperationalError) Can't connect to server on '127.0.0.1' (10061)
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+(2025-10-16 15:54:24.814899) [18084] |LOG| -> Creating ORM Engine
+(2025-10-16 15:54:24.834910) [18084] |LOG| -> Successfully created engine!
+(2025-10-16 15:54:24.842913) [18084] |LOG| -> Creating new user
+(2025-10-16 15:54:24.849935) [18084] |ERROR| -> Failed! Full exception -> (mariadb.ProgrammingError) Unknown column 'updatedAt' in 'INSERT INTO'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `updatedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (UUID('7bf4f0d9-d90e-48e8-a332-d09256b8a41e'), 'glebocrew', 'glebocrew@yandex.ru', <built-in method hexdigest of _hashlib.HASH object at 0x0000020FEDE6AF10>, datetime.datetime(2025, 10, 16, 15, 54, 24, 842913), datetime.datetime(2025, 10, 16, 15, 54, 24, 842913))]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+(2025-10-16 15:55:33.537673) [7084 ] |LOG| -> Creating ORM Engine
+(2025-10-16 15:55:33.560672) [7084 ] |LOG| -> Successfully created engine!
+(2025-10-16 15:55:33.570672) [7084 ] |LOG| -> Creating new user
+(2025-10-16 15:55:33.575672) [7084 ] |ERROR| -> Failed! Full exception -> (mariadb.ProgrammingError) Unknown column 'updatedAt' in 'INSERT INTO'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `updatedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('53f2b986-ac8a-40e7-a154-c512cdca4e91', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', datetime.datetime(2025, 10, 16, 15, 55, 33, 569672), datetime.datetime(2025, 10, 16, 15, 55, 33, 569672))]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+(2025-10-16 15:56:27.659005) [1708 ] |LOG| -> Creating ORM Engine
+(2025-10-16 15:56:27.677372) [1708 ] |LOG| -> Successfully created engine!
+(2025-10-16 15:56:27.685384) [1708 ] |LOG| -> Creating new user
+(2025-10-16 15:56:27.690387) [1708 ] |ERROR| -> Failed! Full exception -> (mariadb.ProgrammingError) Unknown column 'updatedAt' in 'INSERT INTO'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `updatedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('c244c2dc-42f4-4392-9cf9-dff3e592fff0', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', datetime.datetime(2025, 10, 16, 15, 56, 27, 685384), datetime.datetime(2025, 10, 16, 15, 56, 27, 685384))]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+(2025-10-16 15:58:27.008385) [11752] |LOG| -> Creating ORM Engine
+(2025-10-16 15:58:27.027401) [11752] |LOG| -> Successfully created engine!
+(2025-10-16 15:58:27.035386) [11752] |LOG| -> Creating new user
+(2025-10-16 15:58:27.041384) [11752] |ERROR| -> Failed! Full exception -> (mariadb.ProgrammingError) Unknown column 'updatedAt' in 'INSERT INTO'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `updatedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('3d9675d0-bf92-4391-9c2f-d92fc63dfa18', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 15:58:27.035386', '2025-10-16 15:58:27.035386')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+(2025-10-16 15:59:13.308531) [26636] |LOG| -> Creating ORM Engine
+(2025-10-16 15:59:13.328241) [26636] |LOG| -> Successfully created engine!
+(2025-10-16 15:59:13.336256) [26636] |LOG| -> Creating new user
+(2025-10-16 15:59:13.341241) [26636] |ERROR| -> Failed! Full exception -> (mariadb.ProgrammingError) Unknown column 'updatedAt' in 'INSERT INTO'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `updatedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('f4cad820-80db-46bc-a991-5fae61972de3', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 15:59:13.336256', '2025-10-16 15:59:13.336256')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+(2025-10-16 16:01:00.748888) [1372 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:01:00.768660) [1372 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:01:00.776659) [1372 ] |LOG| -> Creating new user
+(2025-10-16 16:01:00.784686) [1372 ] |LOG| -> User was created successfully
+(2025-10-16 16:01:58.542094) [28436] |LOG| -> Creating ORM Engine
+(2025-10-16 16:01:58.560471) [28436] |LOG| -> Successfully created engine!
+(2025-10-16 16:01:58.568481) [28436] |LOG| -> Creating new user
+(2025-10-16 16:01:58.576082) [28436] |ERROR| -> Failed! Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('d6446417-e764-4b59-bf7c-13a0ab68a64a', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:01:58.568481', '2025-10-16 16:01:58.568481')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:04:48.016972) [3212 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:04:48.038147) [3212 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:04:48.046162) [3212 ] |LOG| -> Creating new user
+(2025-10-16 16:05:21.927472) [2316 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:05:21.948471) [2316 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:05:21.956473) [2316 ] |LOG| -> Creating new user
+(2025-10-16 16:06:00.799360) [1544 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:06:00.818393) [1544 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:06:00.826412) [1544 ] |LOG| -> Creating new user
+(2025-10-16 16:06:07.961706) [5528 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:06:07.982302) [5528 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:06:07.991340) [5528 ] |LOG| -> Creating new user
+(2025-10-16 16:06:07.997795) [5528 ] |LOG| -> Something went wrong. Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('85c19197-ad1b-4d2a-9b7d-cc22cc81ded8', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:06:07.990302', '2025-10-16 16:06:07.990302')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:07:01.812489) [13864] |LOG| -> Creating ORM Engine
+(2025-10-16 16:07:01.823489) [13864] |LOG| -> Successfully created engine!
+(2025-10-16 16:07:01.831699) [13864] |LOG| -> Creating new user
+(2025-10-16 16:07:01.838634) [13864] |LOG| -> Something went wrong. Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('2089bdb0-b4c7-482a-be86-4ca5c6b7b198', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:07:01.831699', '2025-10-16 16:07:01.831699')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:07:45.875468) [26480] |LOG| -> Creating ORM Engine
+(2025-10-16 16:07:45.886471) [26480] |LOG| -> Successfully created engine!
+(2025-10-16 16:07:45.895475) [26480] |LOG| -> Creating new user
+(2025-10-16 16:07:45.901685) [26480] |ERROR| -> Failed! Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('5d97d95d-381e-4380-9c69-7b1423314dbf', 'glebocrew', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:07:45.894496', '2025-10-16 16:07:45.894496')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:08:06.413082) [14448] |LOG| -> Creating ORM Engine
+(2025-10-16 16:08:06.426082) [14448] |LOG| -> Successfully created engine!
+(2025-10-16 16:08:06.438120) [14448] |LOG| -> Creating new user
+(2025-10-16 16:08:06.445082) [14448] |ERROR| -> Failed! Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('ef73f4ba-72b5-48d5-aa4d-17461abbb01c', 'glebocrew2', 'glebocrew@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:08:06.437082', '2025-10-16 16:08:06.437082')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:08:14.475469) [8240 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:08:14.486348) [8240 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:08:14.495352) [8240 ] |LOG| -> Creating new user
+(2025-10-16 16:08:14.502131) [8240 ] |LOG| -> User was created successfully
+(2025-10-16 16:17:31.033896) [24080] |LOG| -> Creating ORM Engine
+(2025-10-16 16:17:31.052287) [24080] |LOG| -> Successfully created engine!
+(2025-10-16 16:17:31.060937) [24080] |LOG| -> Creating new user
+(2025-10-16 16:17:31.067947) [24080] |ERROR| -> Failed! Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew2@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('8ae77964-70f5-4e5a-8f1e-9e5bf9703765', 'glebocrew2', 'glebocrew2@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:17:31.060937', '2025-10-16 16:17:31.060937')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:46:44.553677) [25392] |LOG| -> Creating ORM Engine
+(2025-10-16 16:46:44.856645) [25392] |LOG| -> Successfully created engine!
+(2025-10-16 16:46:44.863655) [25392] |LOG| -> Creating new user
+(2025-10-16 16:46:44.870429) [25392] |ERROR| -> Failed! Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew2@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('217b2057-7d36-4a37-b0ae-30e9f9fe78c4', 'glebocrew2', 'glebocrew2@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:46:44.863655', '2025-10-16 16:46:44.863655')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+(2025-10-16 16:46:49.775999) [6672 ] |LOG| -> Creating ORM Engine
+(2025-10-16 16:46:49.795813) [6672 ] |LOG| -> Successfully created engine!
+(2025-10-16 16:46:49.803795) [6672 ] |LOG| -> Creating new user
+(2025-10-16 16:46:49.810359) [6672 ] |ERROR| -> Failed! Full exception -> (mariadb.IntegrityError) Duplicate entry 'glebocrew2@yandex.ru' for key 'email'
+[SQL: INSERT INTO users (id, username, email, pwd, `createdAt`, `editedAt`) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: ('30556bc4-c7c3-4ad6-a3de-ea96783d4af1', 'glebocrew2', 'glebocrew2@yandex.ru', '3c9909afec25354d551dae21590bb26e38d53f2173b8d3dc3eee4c047e7ab1c1eb8b85103e3be7ba613b31bb5c9c36214dc9f14a42fd7a2fdb84856bca5c44c2', '2025-10-16 16:46:49.802795', '2025-10-16 16:46:49.802795')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)

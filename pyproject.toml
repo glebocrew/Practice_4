@@ -1,36 +1,75 @@
-[build-system]
-requires = ["setuptools>=45", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
-name = "your-project-name"
-version = "0.1.0"
-description = "Your project description"
-authors = [{name = "Your Name", email = "your.email@example.com"}]
-requires-python = ">=3.8"
+name = "BlogSystem"
+version = "0.0.1"
+description = "-"
+authors = [{name = "glebocrew", email = "glebocrew@yandex.ru"}]
+requires-python = ">=3.10"
+dependencies = [
+    "annotated-types==0.7.0",
+    "anyio==4.11.0",
+    "black==25.9.0",
+    "cfgv==3.4.0",
+    "click==8.3.0",
+    "colorama==0.4.6",
+    "distlib==0.4.0",
+    "fastapi==0.119.0",
+    "filelock==3.20.0",
+    "greenlet==3.2.4",
+    "gunicorn==23.0.0",
+    "h11==0.16.0",
+    "identify==2.6.15",
+    "idna==3.11",
+    "mariadb==1.1.14",
+    "mypy-extensions==1.1.0",
+    "nodeenv==1.9.1",
+    "packaging==25.0",
+    "pathspec==0.12.1",
+    "platformdirs==4.5.0",
+    "pre-commit==4.3.0",
+    "pydantic==2.12.2",
+    "pydantic-core==2.41.4",
+    "pytokens==0.2.0",
+    "pyyaml==6.0.3",
+    "sniffio==1.3.1",
+    "sqlalchemy==2.0.44",
+    "starlette==0.48.0",
+    "typing-extensions==4.15.0",
+    "typing-inspection==0.4.2",
+    "uvicorn==0.37.0",
+    "virtualenv==20.35.3",
+    "wheel==0.45.1",
+]
 
 [project.optional-dependencies]
 dev = ["ruff", "mypy", "black"]
+
+[tool.setuptools]
+packages = [
+    "db",
+    "consts",
+    "logger",
+]
+
+[tool.setuptools.package-dir]
+db = "db"
+consts = "consts"
+logger = "logger"
 
 # Black
 [tool.black]
 line-length = 88
 target-version = ["py38"]
 
-# Ruff
 [tool.ruff]
-target-version = "py38"
 line-length = 88
-
-[tool.ruff.lint]
-select = ["E", "F", "W", "I", "B"]
-ignore = ["E501"]
-
-[tool.ruff.format]
-quote-style = "double"
+target-version = "py311"
+extend-select = ["I", "E", "F", "W", "B", "UP"]
+ignore = []
+fix = true
+show-fixes = true
 
 # Mypy
 [tool.mypy]
-python_version = "3.8"
-warn_return_any = true
-disallow_untyped_defs = true
+explicit_package_bases = true
+mypy_path = ["."]
+ignore_missing_imports = true
